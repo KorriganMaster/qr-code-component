@@ -74,8 +74,8 @@
     height: var(--size-72);
 }
 
-.h-screen {
-    height: 100vh;
+.h-dvh {
+    height: 100dvh;
 }
 
 /* Widths */
@@ -153,4 +153,9 @@
 
 .leading-loose {
     line-height: 140%;
+}
+
+/* Box shadow */
+.shadow {
+    box-shadow: 0 25px 25px rgba(0, 0, 0, .0477);
 }
