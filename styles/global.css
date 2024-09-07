@@ -12,10 +12,13 @@
     --font-normal: 400;
     --font-bold: 700;
 
+    /*  */
+
     /* Sizes */
     --size-0: 0; /* 0px */
     --size-0\.05: .0125rem; /* 0.2px */
     --size-2\.5: .625rem; /* 10px */
+    --size-2\.75: .6875rem; /* 10px */
     --size-3\.75: .9375rem; /* 15px */
     --size-4: 1rem; /* 16px */
     --size-5: 1.25rem; /* 20px */
@@ -125,6 +128,10 @@
 }
 
 /* Font sizes */
+.text-xs {
+    font-size: var(--size-2\.75);
+}
+
 .text-sm {
     font-size: var(--size-3\.75);
 }
@@ -158,4 +165,13 @@
 /* Box shadow */
 .shadow {
     box-shadow: 0 25px 25px rgba(0, 0, 0, .0477);
+}
+
+/* Positions */
+.fixed {
+    position: fixed;
+}
+
+.bottom-4 {
+    bottom: var(--size-4);
 }
